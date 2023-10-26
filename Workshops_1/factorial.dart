@@ -15,5 +15,4 @@ void main() {
       5; // Faktöriyeli hesaplanacak sayı, istediğiniz değeri kullanabilirsiniz.
   int factorialResult = Factorial(input);
   print('$input faktöriyeli: $factorialResult');
-  print('$input faktöriyeli: $factorialResult');
 }

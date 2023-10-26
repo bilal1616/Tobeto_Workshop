@@ -25,7 +25,6 @@ void main() {
   for (int i = 2; i <= N; i++) {
     if (isPrime(i)) {
       print(i);
-      print(i);
     }
   }
 }
