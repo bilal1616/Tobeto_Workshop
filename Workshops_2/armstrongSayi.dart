@@ -1,8 +1,7 @@
 import 'dart:math';
 
 void main() {
-  for (int number = 1; number <= 10000; number++) {
-    //for döngüsü, 1 ile 10,000 arasındaki sayıları sırayla kontrol eder.
+  for (int number = 1; number <= 10000; number++) { //for döngüsü, 1 ile 10,000 arasındaki sayıları sırayla kontrol eder.
     if (isArmstrongNumber(number)) { //Her döngü adımında, isArmstrongNumber(number) fonksiyonunu kullanarak number değişkenini kontrol eder.
       print("$number bir Armstrong sayısıdır");
     }
